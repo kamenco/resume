@@ -4,6 +4,21 @@
 .bg-color-name-title{
     background-color: #676767;
 }
+
+/*-----------------------------heading, margins and text*/
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
 /*-----------------------------HEADING*/
 header {
     margin: 0;
@@ -33,4 +48,12 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+}
+
+/*-----------------------------footer*/
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
