@@ -69,6 +69,9 @@ header {
 .menucontainer {
     font-size: 0;
 }
+#nav {
+    margin: 0;
+}
 
 #nav li {
     font-size: 30px;
@@ -100,6 +103,12 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+/*----------------------------Hove.css--*/
+.hvr-sweep-to-bottom::before {
+    background: rgb(0,0,0,0.2);
+    height: 120px;
 }
 
 /*-----------------------------footer*/
